@@ -56,6 +56,8 @@ const Skills: React.FC = () => {
       color: "from-green-500 to-emerald-500",
       skills: [
         { name: "Node.js & Express", level: 95 },
+        { name: "Nest.js", level: 80 },
+        { name: "postgresql", level: 70 },
         { name: "MongoDB", level: 88 },
         // { name: "Fast Api", level: 50 },
         { name: "Python", level: 60 },
@@ -74,7 +76,7 @@ const Skills: React.FC = () => {
         { name: "LangChain", level: 85 },
         { name: "RAG Architecture", level: 85 },
         { name: "Prompt Engineering", level: 88 },
-        { name: "AWS (EC2, S3, RDS)", level: 85 },
+        { name: "AWS (EC2, S3)", level: 85 },
         { name: "Docker & Containerization", level: 82 },
         { name: "Git & GitHub", level: 90 },
         { name: "CI/CD Pipelines", level: 80 },
