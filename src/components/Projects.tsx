@@ -54,8 +54,8 @@ const Projects: React.FC = () => {
       technologies: [
         "Angular",
         "TypeScript",
-        "Express.js",
-        "MongoDB",
+        "Nest.js",
+        "postgresql",
         "Firebase",
       ],
       liveUrl: "#",
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
       description:
         "Full-featured travel booking platform with dynamic inventory, geo-based search, and payment integration. Supports availability calendars, dynamic pricing, and Stripe/PayPal payments.",
       image: "/images/beltravel.png",
-      technologies: ["Next.js", "Express", "MongoDB", "Stripe", "PayPal"],
+      technologies: ["Next.js", "Nest.js", "postgresql", "Stripe"],
       liveUrl: "https://beltravel.lv/",
       githubUrl: "#",
     },
@@ -97,7 +97,7 @@ const Projects: React.FC = () => {
       description:
         "  Developed a high-performance property listing site using React and SEO-first rendering techniques (Storybook· Next.js). Implemented multi-faceted search, advanced filters, bookmarking, and agent contact workflows to drive lead capture and CRM integration.Delivered improved search relevance, faster page loads, and higher user engagement for property discovery.",
       image: "/images/refino.png",
-      technologies: ["Next.js", "StoryBook", "MongoDB", "Stripe", "PayPal"],
+      technologies: ["Next.js", "StoryBook", "postgresql", "Stripe"],
       liveUrl: "https://refino.se/",
       githubUrl: "#",
     },
@@ -134,13 +134,7 @@ const Projects: React.FC = () => {
       description:
         "Developed a healthcare billing and RCM portal using React, TypeScript, Node/Express and MongoDB with RBAC and secure APIs (Healthcare · RCM · RBAC).Implemented claim submission/tracking, denial analytics, and financial dashboards showing KPIs such as claims status and A/R trends.Streamlined billing workflows and increased visibility into revenue operations for healthcare providers.",
       image: "/images/marklab.png",
-      technologies: [
-        "Next (TypeScript)",
-        "Formik",
-        "Redux",
-        "MongoDB",
-        "Firebase",
-      ],
+      technologies: ["Next (TypeScript)", "Formik", "Redux", "Firebase"],
       liveUrl: "https://marklabinc.com/",
       githubUrl: "#",
     },
